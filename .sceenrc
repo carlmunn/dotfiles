@@ -1,0 +1,14 @@
+shell -$SHELL
+hardstatus on
+hardstatus string "[%-w%{= BW} *%n %t %{-}%+Lw%<]%{-}%-=%H"
+
+#hardstatus alwayslastline "%H%{+b c}   [%{-}%w - %{+b c}]%{-}"
+#caption always "%w"
+#hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+#hardstatus string '%{G} Test Green %{-} Test base %? question mark'
+
+startup_message off
+defscrollback 50000
+#debug on
+
+multiuser on
